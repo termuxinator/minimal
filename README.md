@@ -1,0 +1,3 @@
+# minimal
+
+minimal project skeleton
