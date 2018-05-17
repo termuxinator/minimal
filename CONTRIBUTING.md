@@ -12,3 +12,7 @@ Suggestions are always welcome.
 - now supports compiler defines
 ## 5/17/2018 -- updated README.md
 - added more Makefile customize info
+## 5/17/2018 -- enhanced Makefile
+- made adding sources in Makefile simpler
+## 5/17/2018 -- updated README.md
+- reflects Makefile custom info
