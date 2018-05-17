@@ -21,6 +21,7 @@ Makefile
 - to add source files: **OBJECTS = main.o foo.o bar.o**
 - to add local headers: **HEADERS = foo.h bar.h**
 - to add linker libraries: **LIBS = -lfoo -lbar**
+- to use compiler defines: **CDEFS = -Dfoo -Dbar=2018**
 - to use compiler flags: **CFLAGS = -Wall -Wextra**
 - to use linker flags: **LFLAGS = -Wl,--foobar**
 
