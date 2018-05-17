@@ -7,16 +7,17 @@ LIBS =
 
 # RM = rm -f
 # CC = cc
+CDEFS =
 CFLAGS =
 LFLAGS =
 
 .PHONY:clean
 
 $(BINARY): $(OBJECTS)
-	$(CC) $(CFLAGS) $(LFLAGS) $(LIBS) $< -o $@
+	$(CC) $(CFLAGS) $(CDEFS) $(LFLAGS) $(LIBS) $< -o $@
 
 %.o: %.c $(HEADERS)
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) $(CDEFS) -c $< -o $@
 
 clean:
 	$(RM) $(BINARY)
