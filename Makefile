@@ -1,7 +1,9 @@
 # simple project makefile
 
 BINARY = minimal
-OBJECTS = main.o
+SOURCES = main.c
+
+OBJECTS = $(SOURCES:.c=.o)
 HEADERS =
 LIBS =
 
