@@ -8,3 +8,7 @@ Suggestions are always welcome.
 - added minimal project skeleton
 ## 5/16/2018 -- enhanced README.md
 - added more project information
+## 5/17/2018 -- enhanced Makefile
+- now supports compiler defines
+## 5/17/2018 -- updated README.md
+- added more Makefile customize info
