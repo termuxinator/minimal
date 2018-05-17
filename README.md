@@ -18,7 +18,7 @@ minimal project skeleton
 
 ## customize
 Makefile
-- to add source files: **OBJECTS = main.o foo.o bar.o**
+- to add source files: **SOURCES = main.c foo.c bar.c**
 - to add local headers: **HEADERS = foo.h bar.h**
 - to add linker libraries: **LIBS = -lfoo -lbar**
 - to use compiler defines: **CDEFS = -Dfoo -Dbar=2018**
